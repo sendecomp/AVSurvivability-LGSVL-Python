@@ -1,0 +1,2 @@
+# Notebooks
+Contains some `python` scripts and `jupyter notebooks`. These files are mostly used to provide the groundwork for my tests and run the rest in the interpreter. I don't know of an easy way to log the interpreter console, that information was lost. A live interpreter was needed because the simulation was a live simulation. Otherwise every new command I would want to try would require restarting the simulator. I briefly mention parts that I would want to do differently in the future in the main README. 

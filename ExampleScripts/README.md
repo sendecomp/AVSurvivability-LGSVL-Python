@@ -1,0 +1,2 @@
+# Example scripts
+These are some scripts provided by the PythonAPI as examples of how to use the API. The ones in this folder were the ones I felt were the most relevant. All the files in this folder are unmodified and were used as reference.

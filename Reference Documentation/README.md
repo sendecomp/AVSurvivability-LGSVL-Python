@@ -1,0 +1,2 @@
+# Reference Documentation
+This directory contains various documents I found online that describe various aspects of the Connected Vehicle architecture and message types. This information was used to help determine what was needed from the Python API.
