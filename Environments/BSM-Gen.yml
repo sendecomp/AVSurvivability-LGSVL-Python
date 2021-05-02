@@ -1,0 +1,9 @@
+name: BSM-Gen
+dependencies:
+  - python==3.7.*
+  - ipython
+  - jupyter
+  - pip
+  - pip:
+    - ../Python-API-Packages/PythonAPI/
+    - jupyter_contrib_nbextensions

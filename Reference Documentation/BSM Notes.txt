@@ -1,0 +1,44 @@
+BSM Notes
+
+msgCnt MsgCount,        -> ?
+id TemporaryID,         -> ?
+secMark Dsecond,        -> ?
+lat Latitude,           -> Map agent.state.position (meters) to lat
+long Longitude,         -> Map agent.state.position (meters) to long
+
+                        // https://stackoverflow.com/questions/639695/how-to-convert-latitude-or-longitude-to-meters
+                        // Given you're looking for a simple formula, this is probably the simplest way to do it, assuming that the Earth is a sphere with a circumference of 40075 km.
+                        // Length in meters of 1° of latitude = always 111.32 km (40075 / 360)
+                        // Length in meters of 1° of longitude = 40075 km * cos( latitude ) / 360
+                        // 38N, 92W is closest even coordinate to Rolla, might just use that
+			// 
+			// Turns out this isn't needed, there is to_gps functionality within the PythonAPI
+
+
+elev Elevation,         -> agent.state.position.y
+Speed Speed,            -> agent.state.speed
+Heading Heading,        -> agent.state.rotation
+
+Unity coordinates
+x -> east
+y -> Up
+z -> North
+
+
+fields:
+    msgCnt
+    id
+    secMark
+    lat
+    long
+    elev
+    accuracy
+    transmission
+    speed
+    heading
+    angle
+    accelSet
+    brakes
+    size
+    >>> 
+
